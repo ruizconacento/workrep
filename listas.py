@@ -1,0 +1,5 @@
+print("Creación de una lista respecto a los límites dados. ")
+RANGOMIN = input("¿Cuál es tu rango mínimo? : ")
+RANGOMAX = input("¿Cuál es tu rango máximo? : ")
+lista = list(range(int(RANGOMIN),int(RANGOMAX)))
+print(lista)
