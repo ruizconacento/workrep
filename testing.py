@@ -19,4 +19,4 @@ for item in main_path_:
 destination_path = main_path + "\\" + item_
 data = pd.read_excel(destination_path, index_col=0, sheet_name="Sheet1", header=0)
 print(data.info())
-print(data)
+#print(data)
