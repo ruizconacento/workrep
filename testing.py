@@ -28,3 +28,11 @@ path_csv = main_path + "\\out.csv"
 data1csv = data1excel_.to_csv(path_csv)
 data1csv_ = pd.read_csv(path_csv)
 print(data1csv_)
+
+data2 = main_path + "\\" + item2
+data2excel = pd.read_excel(data2, index_col=0, sheet_name="Names", header=0)
+data2excel_ = pd.DataFrame(data2excel)
+path_csv = main_path + "\\" + str(item2)
+data2csv = data2excel_.to_csv(path_csv)
+data2csv_ = pd.read_csv(path_csv)
+print(data2csv_)
