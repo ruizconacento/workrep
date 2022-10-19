@@ -27,7 +27,7 @@ data1excel_ = pd.DataFrame(data1excel)
 path_csv = main_path + "\\out.csv"
 data1csv = data1excel_.to_csv(path_csv)
 data1csv_ = pd.read_csv(path_csv)
-print(data1csv_)
+print(data1csv_.to_string())
 
 data2 = main_path + "\\" + item2
 data2excel = pd.read_excel(data2, index_col=0, sheet_name="Names", header=0)
