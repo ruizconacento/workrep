@@ -11,9 +11,9 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Test Result</h2>
-                <p class='attribute'><strong>Start Time: </strong>2022-11-08 14:47:04</p>
-                <p class='attribute'><strong>Duration: </strong>14.409s</p>
-                <p class='attribute'><strong>Status: </strong>Pass: 1</p>
+                <p class='attribute'><strong>Start Time: </strong>2022-11-08 16:19:22</p>
+                <p class='attribute'><strong>Duration: </strong>25.036s</p>
+                <p class='attribute'><strong>Status: </strong>Error: 1</p>
             </div>
         </div>
         <div class="row">
@@ -27,17 +27,53 @@
                     </thead>
                     <tbody>
                         
-                            <tr class='success'>
-                                <td class="col-xs-9">test_hello_world (__main__.HellowWorld)</td>
+                            <tr class='warning'>
+                                <td class="col-xs-9">test_search_by_class (__main__.Search)</td>
                                 <td class="col-xs-3">
-                                    <span class="label label-success">
+                                    <span class="label label-warning">
                                         
-                                            Pass
+                                            Error
                                         
                                     </span>
                                     
+                                        &nbsp<button class="btn btn-default btn-xs">View</button>
+                                    
                                 </td>
                             </tr>
+                            
+                                <tr style="display:none;">
+                                    <td class="col-xs-9">
+                                        <p>NoSuchElementException</p>
+                                        <p>Message: no such element: Unable to locate element: {"method":"css selector","selector":"._21nHd"}
+  (Session info: chrome=107.0.5304.88)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0026ACD3+2075859]
+	Ordinal0 [0x001FEE61+1633889]
+	Ordinal0 [0x000FB7BD+571325]
+	Ordinal0 [0x0012AC2F+764975]
+	Ordinal0 [0x0012AE1B+765467]
+	Ordinal0 [0x0015D0F2+970994]
+	Ordinal0 [0x00147364+881508]
+	Ordinal0 [0x0015B56A+963946]
+	Ordinal0 [0x00147136+880950]
+	Ordinal0 [0x0011FEFD+720637]
+	Ordinal0 [0x00120F3F+724799]
+	GetHandleVerifier [0x0051EED2+2769538]
+	GetHandleVerifier [0x00510D95+2711877]
+	GetHandleVerifier [0x002FA03A+521194]
+	GetHandleVerifier [0x002F8DA0+516432]
+	Ordinal0 [0x0020682C+1665068]
+	Ordinal0 [0x0020B128+1683752]
+	Ordinal0 [0x0020B215+1683989]
+	Ordinal0 [0x00216484+1729668]
+	BaseThreadInitThunk [0x7761FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77767BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77767B8E+238]
+	(No symbol) [0x00000000]
+</p>
+                                    </td>
+                                </tr>
                             
                         
                         <tr>
@@ -45,7 +81,7 @@
                                Total Test Runned: 1
                             </td>
                             <td>
-                                <span>Pass: 1</span>
+                                <span>Error: 1</span>
                             </td>
                         </tr>
                     </tbody>
