@@ -1,5 +1,0 @@
-print("Creación de una lista respecto a los límites dados. ")
-rangomin = input("¿Cuál es tu rango mínimo? : ")
-rangomax = input("¿Cuál es tu rango máximo? : ")
-lista = list(range(int(rangomin),int(rangomax)))
-print("Tu lista es la siguiente : " + lista)
